@@ -12,5 +12,8 @@ class Shoe
     @color = color
   end
   
+  def size 
+    @size = size
+  end
   
  end 
