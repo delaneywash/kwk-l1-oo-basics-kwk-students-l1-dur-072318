@@ -15,6 +15,9 @@ class Shoe
   def size 
     @size = size
   end 
-  
+   
+  def material
+    @material = material
+  end
   
  end 
