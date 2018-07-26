@@ -26,5 +26,5 @@ class Shoe
   
   def cobble
     @cobble = cobble
-  end
+  end 
  end 
