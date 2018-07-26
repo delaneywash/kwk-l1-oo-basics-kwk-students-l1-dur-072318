@@ -1,4 +1,4 @@
-# book.rb
-# Add you Book class here
 class Book
-end
+  def initialized (title)
+    
+end 
