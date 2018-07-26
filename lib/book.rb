@@ -7,13 +7,13 @@ class Book
     @title 
   end 
   
-  def author=(author)
-    @author= author
-  end 
-  
   def author
     @author
   end
+  
+  def author=(author)
+    @author= author
+  end 
   
   def page_count
     @page_count
@@ -23,18 +23,15 @@ class Book
     @page_count = number
   end
   
-  def genre=(genre)
-    @genre = genre
-  end
-
-  
   def genre
     @genre 
   end 
   
+  def genre=(genre)
+    @genre = genre
+  end
+  
   def turn_page
-    book = Book.new("Some Time")
-    book.turn_page
     puts "Flipping the page...wow, you read fast!"
   end 
 
