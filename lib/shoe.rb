@@ -18,6 +18,10 @@ class Shoe
    
   def material
     @material = material
+  end 
+  
+  def condition
+    @condition =  condition
   end
   
  end 
