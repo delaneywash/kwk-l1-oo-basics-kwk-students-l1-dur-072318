@@ -1,5 +1,7 @@
 class Book
   def initialized (title)
-end
+  end
+  
+  def title
     
 end 
